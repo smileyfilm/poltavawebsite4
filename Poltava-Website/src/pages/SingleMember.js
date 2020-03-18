@@ -40,7 +40,7 @@ export default class SingleMember extends Component {
       name,
       description,
       instrument,
-      size,
+      age,
       musicalTalentRating,
       additionaltalents,
       goodlooking,
@@ -66,7 +66,7 @@ export default class SingleMember extends Component {
                 <article className="info">
                     <h3>info</h3>
                     <h6>musical talent rating: {musicalTalentRating}/10</h6>
-                    <h6>age: {size} years old</h6>
+                    <h6>age: {age} years old</h6>
                     <h6>
                         Instrument: {" "}
                         {`${instrument}`}
