@@ -21,7 +21,7 @@ export default [
       goodlooking: false,
       onHome: true,
       description:
-        "Originally from Russia, Samoilenko joined the Royal New Zealand Navy in his twenties, where he met Poltava's drummer, Jonas Cole. He currently works and resides on the North Shore of Auckland.",
+        "Originally from Russia, Samoilenko joined the Royal New Zealand Navy in his twenties, where he met Poltava's drummer, Jonas Cole. He currently works and resides in Auckland.",
       additionaltalents: [
         "Impressive beard",
         "Deep historical knowledge",
@@ -60,7 +60,7 @@ export default [
       goodlooking: false,
       onHome: true,
       description:
-        "Originally from Whangarei, Cole moved to Auckland in his teens. He joined the Royal New Zealand Navy straight after high school, where he met Igor Samoilenko. He eventually left the Navy to study computer science at the University of Auckland, where he met Matthew Armstrong. He currently works and resides on the North Shore of Auckland.",
+        "Originally from Whangarei, Cole moved to Auckland in his teens. He joined the Royal New Zealand Navy straight after high school, where he met Igor Samoilenko. He eventually left the Navy to study computer science at the University of Auckland, where he met Matthew Armstrong. He currently works and resides in Auckland.",
       additionaltalents: [
         "Interesting time signatures",
         "Occasional vocals",
