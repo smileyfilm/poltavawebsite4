@@ -1,6 +1,6 @@
 
-
 import React, { Component } from "react";
+
 import defaultBcg from "../images/MattFacebook1.jpeg";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
@@ -47,10 +47,10 @@ export default class SingleMember extends Component {
       university,
       images
     } = member;
-    const [mainImg,...defaultImg] = images;
+    //const [mainImg,...defaultImg] = images;
     return (
         <>
-        <StyledHero img={mainImg || this.state.defaultBcg}>
+        <StyledHero img={images[1] || this.state.defaultBcg}>
             <Banner title={`${name}`}>
                 <Link to='/members' className='btn-primary'>
                     back to members
@@ -87,18 +87,3 @@ export default class SingleMember extends Component {
     );
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
